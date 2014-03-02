@@ -10,29 +10,27 @@ You can download as zip to initial your test project directories.
 Preparation
 -----------
 1. Ensure the Rybellion framework is already setup, see: https://github.com/gigapixel/rybellion
-2. Download zip to your local machine
+2. Download zip to your local machine.
 3. Extract to any location (You can rename root directory to another name)
-4. At the root directory run following command:
+4. At the root directory run example test with following command:
 ```
   cucumber --quiet
 ```
 
-5. This would be run 'example.feature' test
-
 Reference for cucumber command see: [Running Features](https://github.com/cucumber/cucumber/wiki/Running-Features)
-
 
 Write your own tests
 --------------------
 Following are brief steps to write your own test on Rybellion (more details will comming soon).
-1. Create page definition file (.yaml) and save in 'page-definitions' directory
-** see example from 'WatirExample.yaml' 
-2. Create feature file (.feature) and save in 'features' directory
-** see example from 'example.feature'
+
+1. Create page definition file (.yaml) and save in 'page-definitions' directory.
+   * see example from 'WatirExample.yaml'
+2. Create feature file (.feature) and save in 'features' directory.
+   * see example from 'example.feature'
 
 Running your tests
 ------------------
-You can run test with following cucumber command at your project directory
+You can run test with following cucumber command at your project directory.
 To run all feature files use:
 ```
   cucumber --quiet
