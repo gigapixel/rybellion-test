@@ -41,7 +41,7 @@ To run with specified tags use:
 ```
   cucumber --quiet --tags=@your_tag
 ```
-To capture result as html file use:
+To capture test result as html file use:
 ```
   cucumber --quiet --format=html > your_file.html
 ```
