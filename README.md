@@ -16,17 +16,19 @@ Preparation
 ```
   cucumber --quiet
 ```
+
 5. This would be run 'example.feature' test
+
 Reference for cucumber command see: [Running Features](https://github.com/cucumber/cucumber/wiki/Running-Features)
 
 
 Write your own tests
 --------------------
-Following are brief steps to write your own test on Rybellion (more details will comming soon)
+Following are brief steps to write your own test on Rybellion (more details will comming soon).
 1. Create page definition file (.yaml) and save in 'page-definitions' directory
-   * see example from 'WatirExample.yaml' 
+** see example from 'WatirExample.yaml' 
 2. Create feature file (.feature) and save in 'features' directory
-   * see example from 'example.feature'
+** see example from 'example.feature'
 
 Running your tests
 ------------------
