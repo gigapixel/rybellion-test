@@ -1,6 +1,6 @@
 Rybellion Test Project
 ======================
-A test project for demo Rybellion framework.
+Test project for demo Rybellion framework.
 
 About
 -----
