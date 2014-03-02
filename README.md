@@ -1,6 +1,6 @@
 Rybellion Test Project
 ======================
-The test project for demo Rybellion framework.
+A test project for demo Rybellion framework.
 
 About
 -----
@@ -13,18 +13,19 @@ Preparation
 2. Download zip to your local machine.
 3. Extract to any location (You can rename root directory to another name)
 4. At the root directory run example test with following command:
+
 ```
   cucumber --quiet
 ```
 
 Reference for cucumber command see: [Running Features](https://github.com/cucumber/cucumber/wiki/Running-Features)
 
-Write your own tests
---------------------
+Create your own tests
+---------------------
 Following are brief steps to write your own test on Rybellion (more details will comming soon).
 
 1. Create page definition file (.yaml) and save in 'page-definitions' directory.
-   * see example from 'WatirExample.yaml'
+   * see example from 'WatirExample.yaml' or 'WatirExampleResponse.yaml'
 2. Create feature file (.feature) and save in 'features' directory.
    * see example from 'example.feature'
 
@@ -41,6 +42,6 @@ To run with specified tags use:
 ```
 To capture result as html file use:
 ```
-cucumber --quiet --format=html > your_file.html
+  cucumber --quiet --format=html > your_file.html
 ```
 
