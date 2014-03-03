@@ -1,6 +1,6 @@
 require 'rybellion'
 
-TestEngine.OpenBrowser()
+TestEngine.OpenBrowser('firefox')
 TestEngine.LoadPageDefinitions('./page-definitions/*.yaml')
 
 at_exit do
